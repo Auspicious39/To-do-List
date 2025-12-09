@@ -1,13 +1,13 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #f5f5f5;
+  background: linear-gradient(to top left, #f5f5f5 , #8585ff);
   padding: 2rem;
 }
 
 .todo-container {
   max-width: 600px;
   margin: auto;
-  background: white;
+  background:linear-gradient( #6868ff);
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
