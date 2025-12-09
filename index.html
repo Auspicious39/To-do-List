@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <div class="todo-container">
+    <h2> My To-Do List</h2>
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Enter a new task..." />
+      <select id="categorySelect">
+        <option value="General">General</option>
+        <!-- <option value="Work">Work</option> -->
+        <!-- <option value="Personal">Personal</option> -->
+        <option value="Urgent">Urgent</option>
+      </select>
+      <button id="addBtn">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
